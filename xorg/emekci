@@ -1,0 +1,49 @@
+// Emekçi, a Turkish variant of the Workman keyboard layout - 03-06-2022 Ata Kuyumcu
+// Credit to the original Workman keyboard layout - 09-06-2010 OJ Bucao
+// https://workmanlayout.org
+
+partial alphanumeric_keys
+xkb_symbols "workman-tr" {
+    name[Group1]= "Turkish (Workman)";
+
+    include "tr(basic)"
+
+    key <AD02> { [ d, D ] };
+    key <AD03> { [ r, R ] };
+    key <AD04> { [ w, W ] };
+    key <AD05> { [ b, B ] };
+    key <AD06> { [ j, J ] };
+    key <AD07> { [ f, F ] };
+    key <AD08> { [ u, U, ucircumflex, Ucircumflex ] };
+    key <AD09> { [ p, P ] };
+    key <AD10> { [ idotless, I, icircumflex, Icircumflex ] };
+    key <AD11> { [ udiaeresis, Udiaeresis, asciitilde, dead_macron ] };
+    key <AD12> { [ gbreve, Gbreve ] };
+
+    key <AC01> { [ a, A, acircumflex, Acircumflex ] };
+    key <AC02> { [ s, S, ssharp, VoidSymbol ] };
+    key <AC03> { [ h, H ] };
+    key <AC04> { [ t, T, U20BA ] };
+    key <AC05> { [ g, G ] };
+    key <AC06> { [ y, Y ] };
+    key <AC07> { [ n, N ] };
+    key <AC08> { [ e, E, EuroSign ] };
+    key <AC09> { [ o, O, ocircumflex, OCircumflex ] };
+    key <AC10> { [ i, Iabovedot, apostrophe, dead_caron ] };
+    key <AC11> { [ scedilla, Scedilla, acute, dead_acute ] };
+    include "kpdl(comma)"
+
+    key <AB01> { [ z, Z ] };
+    key <AB02> { [ x, X ] };
+    key <AB03> { [ m, M ] };
+    key <AB04> { [ c, C ] };
+    key <AB05> { [ v, V ] };
+    key <AB06> { [ k, K ] };
+    key <AB07> { [ l, L ] };
+    key <AB08> { [ odiaeresis, Odiaeresis, multiply, VoidSymbol ] };
+    key <AB09> { [ ccedilla, Ccedilla,periodcentered, division ] };
+    key <AB10> { [ period, colon, dead_abovedot, dead_abovedot ] };
+
+    key <CAPS> { [ BackSpace, Escape, BackSpace, BackSpace ] };
+    include "level3(ralt_switch)"
+};
