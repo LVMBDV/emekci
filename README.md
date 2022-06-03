@@ -17,7 +17,7 @@ setxkbmap emekci
 ## Changes
 
 - The number row behaves the same as a regular Turkish Q keyboard.
-- The upper row ends with "I Ü Ğ" instead of "; [ ]".
-- The home row ends with "İ Ş" instead of "I '".
+- The upper row ends with "`I Ü Ğ`" instead of "`; [ ]`".
+- The home row ends with "`İ Ş`" instead of "`I '`".
 - The decimal key, at the end of the home row, is set to comma.
-- The lower row ends with "Ö Ç ." instead of ", . /".
+- The lower row ends with "`Ö Ç .`" instead of "`, . /`".
